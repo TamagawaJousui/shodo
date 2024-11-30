@@ -1,10 +1,10 @@
 import "./App.css";
-import heroImage from "./assets/hero_banner.png";
+import heroImage from "./assets/hero_banner.webp";
 
 function App() {
   return (
     <>
-      <img src={heroImage} alt="hero" className="size-full" />
+      <img src={heroImage} alt="hero" className="aspect-video size-full" />
       <div className="p-8 text-center font-serif text-lg">
         本作品は、視覚、聴覚、触覚を通じて、書道の本質である「過程表現」の価値を体感できる体験型作品です。
         色で筆の進むスピードを視覚的に捉え、音でリズムを聴き、手で動きに触れることで、
