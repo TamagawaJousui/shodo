@@ -25,7 +25,7 @@ function App() {
       <div className="flex w-full justify-center">
         <div className="max-w-screen-2xl">
           {/* description */}
-          <div className="page-content mx-16 mt-24">
+          <div className="page-content mx-14 mt-24">
             <p>
               本作品は、視覚、聴覚、触覚を通じて、書道の本質である「過程表現」の価値を体感できる体験型作品です。
             </p>
@@ -47,15 +47,15 @@ function App() {
           </div>
           {/* description video */}
           <iframe
-            className="mx-16 mt-24 aspect-video w-[stretch] rounded-xl"
+            className="mx-14 mt-24 aspect-video w-[stretch] rounded-xl"
             src="https://www.youtube.com/embed/_RrR8aV4kN4"
             title="YouTube video player"
             allow="picture-in-picture"
             allowFullScreen
           />
           {/* visual */}
-          <div className="mx-16 mt-24 text-center text-4xl">視覚</div>
-          <div className="mx-16 mt-14 flex flex-col gap-8 md:flex-row">
+          <div className="mx-14 mt-24 text-center text-4xl">視覚</div>
+          <div className="mx-14 mt-14 flex flex-col gap-8 md:flex-row">
             <div className="w-full md:flex md:flex-[45%] md:flex-col md:items-center md:justify-center">
               <img
                 src={description_color}
@@ -81,8 +81,8 @@ function App() {
             </div>
           </div>
           {/* auditory */}
-          <div className="mx-16 mt-24 text-center text-4xl">聴覚</div>
-          <div className="mx-16 mt-14 flex flex-col gap-8 md:flex-row">
+          <div className="mx-14 mt-24 text-center text-4xl">聴覚</div>
+          <div className="mx-14 mt-14 flex flex-col gap-8 md:flex-row">
             <div className="w-full md:flex md:flex-[45%] md:flex-col md:items-center md:justify-center">
               <iframe
                 className="aspect-video w-[stretch] rounded-xl"
@@ -106,8 +106,8 @@ function App() {
             </div>
           </div>
           {/* tactile */}
-          <div className="mx-16 mt-24 text-center text-4xl">触覚</div>
-          <div className="mx-16 mt-14 flex flex-col gap-16">
+          <div className="mx-14 mt-24 text-center text-4xl">触覚</div>
+          <div className="mx-14 mt-14 flex flex-col gap-16">
             <div className="page-content">
               <p>
                 そして、こちらは筆が進む方向と速度を触覚で表現したものです。
@@ -128,7 +128,7 @@ function App() {
             </div>
           </div>
           {/* summary */}
-          <div className="page-content mx-16 mt-24">
+          <div className="page-content mx-14 mt-24">
             <p>
               本作品は、書道を長年学び続けてきたメンバーが、書道の鑑賞体験を変えたいという思いから制作したものです。
             </p>
@@ -140,15 +140,15 @@ function App() {
             </p>
           </div>
           {/* exhibition */}
-          <div className="mx-16 mt-24 text-center text-4xl">展示</div>
-          <div className="mx-16 mt-4 flex flex-col items-center whitespace-pre-wrap text-xl">
+          <div className="mx-14 mt-24 text-center text-4xl">展示</div>
+          <div className="mx-14 mt-4 flex flex-col items-center whitespace-pre-wrap text-xl">
             <div className="flex flex-row items-center justify-center gap-2">
               <span>東京大学制作展 2024</span>
               <span> 付いて離れて</span>
             </div>
             <span className="w-fit">11.7 - 11.11</span>
           </div>
-          <div className="mx-16 mt-14 flex flex-col gap-12 drop-shadow-2xl">
+          <div className="mx-14 mt-14 flex flex-col gap-12 drop-shadow-2xl">
             <img src={exhibition_1} alt="exhibition_1" className="rounded-xl" />
             <div className="flex flex-col gap-12 md:flex-row md:justify-between md:gap-0">
               <img
@@ -164,8 +164,8 @@ function App() {
             </div>
           </div>
           {/* making */}
-          <div className="mx-16 mt-24 text-center text-4xl">制作</div>
-          <div className="mx-16 mt-14 flex flex-col gap-12 drop-shadow-2xl">
+          <div className="mx-14 mt-24 text-center text-4xl">制作</div>
+          <div className="mx-14 mt-14 flex flex-col gap-12 drop-shadow-2xl">
             <div className="flex flex-col gap-12 md:flex-row md:justify-between md:gap-0">
               <img
                 src={making_1}
@@ -190,6 +190,44 @@ function App() {
                 className="rounded-xl object-contain md:w-[69.5%]"
               />
             </div>
+          </div>
+          {/* members */}
+          <div className="mx-14 mt-24 text-center text-4xl">メンバー</div>
+          <div className="mx-14 mt-8 flex flex-col items-center justify-center gap-2 text-xl">
+            <div className="member">
+              <span>小西優多郎</span>
+              <span>
+                東京大学大学院学際情報学府
+                <br className="block md:hidden" /> 修士課程1年
+              </span>
+            </div>
+            <div className="member">
+              <span>田中祐玖</span>
+              <span>
+                東京大学大学院学際情報学府
+                <br className="block md:hidden" /> 修士課程1年
+              </span>
+            </div>
+            <div className="member">
+              <span>都築あい</span>
+              <span>
+                東京大学大学院情報理工学系
+                <br className="block md:hidden" /> 修士課程1年
+              </span>
+            </div>
+            <div className="member">
+              <span>Xi Jingfan</span>
+              <span>
+                東京大学大学院情報理工学系
+                <br className="block md:hidden" /> 修士課程1年
+              </span>
+            </div>
+          </div>
+          {/* spacer */}
+          <div className="mx-14 mt-20 text-center text-4xl" />
+          {/* footer */}
+          <div className="mx-14 border-t border-black pb-16 pt-10 text-center font-copyright text-sm">
+            Copyright ©︎ 2024 Trajectory of Handwriting.
           </div>
         </div>
       </div>

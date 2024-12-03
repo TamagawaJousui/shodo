@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply antialiased font-serif ;
+    @apply antialiased font-serif;
   }
 }
 @layer components {
   .page-content {
     @apply flex flex-col justify-center gap-8 text-xl leading-relaxed;
+  }
+  .member {
+    @apply flex w-full flex-row justify-between items-center md:w-[31rem];
   }
 }
 @layer utilities {

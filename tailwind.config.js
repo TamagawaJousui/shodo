@@ -9,6 +9,7 @@ module.exports = {
     },
     fontFamily: {
       serif: ["Noto Serif JP"],
+      copyright: ["Sawarabi Mincho"],
     },
   },
   plugins: [],
