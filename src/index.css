@@ -14,7 +14,7 @@
     @apply flex flex-col justify-center gap-8 text-xl leading-relaxed;
   }
   .member {
-    @apply flex w-full flex-row justify-between items-center md:w-[31rem];
+    @apply text-base sm:text-xl flex w-full flex-row justify-between items-center md:w-[31rem];
   }
 }
 @layer utilities {

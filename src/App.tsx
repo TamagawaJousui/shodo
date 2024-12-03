@@ -142,11 +142,11 @@ function App() {
           {/* exhibition */}
           <div className="mx-14 mt-24 text-center text-4xl">展示</div>
           <div className="mx-14 mt-4 flex flex-col items-center whitespace-pre-wrap text-xl">
-            <div className="flex flex-row items-center justify-center gap-2">
+            <div className="flex flex-col items-center justify-center gap-1 sm:flex-row sm:gap-2">
               <span>東京大学制作展 2024</span>
               <span> 付いて離れて</span>
             </div>
-            <span className="w-fit">11.7 - 11.11</span>
+            <span className="mt-2 w-fit sm:mt-0">11.7 - 11.11</span>
           </div>
           <div className="mx-14 mt-14 flex flex-col gap-12 drop-shadow-2xl">
             <img src={exhibition_1} alt="exhibition_1" className="rounded-xl" />
