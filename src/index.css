@@ -4,9 +4,8 @@
 @tailwind utilities;
 
 @layer base {
-  html,
   body {
-    @apply antialiased font-serif;
+    @apply antialiased font-serif ;
   }
 }
 @layer components {
@@ -20,5 +19,12 @@
   }
   .antialiased {
     -webkit-font-smoothing: antialiased;
+  }
+  .fade-edges {
+    mask-image: radial-gradient(
+      ellipse 80% 80% at center,
+      black 40%,
+      transparent 100%
+    );
   }
 }
