@@ -37,15 +37,15 @@ function App() {
       </div>
       {/* description video */}
       <iframe
-        className="mx-16 my-24 aspect-video w-[stretch]"
+        className="mx-16 mt-24 aspect-video w-[stretch]"
         src="https://www.youtube.com/embed/_RrR8aV4kN4"
         title="YouTube video player"
         allow="picture-in-picture"
         allowFullScreen
       />
       {/* visual */}
-      <div className="mx-16 my-14 text-center text-4xl">視覚</div>
-      <div className="mx-16 flex flex-col gap-8 md:flex-row">
+      <div className="mx-16 mt-24 text-center text-4xl">視覚</div>
+      <div className="mx-16 mt-14 flex flex-col gap-8 md:flex-row">
         <div className="w-full md:flex md:flex-[45%] md:flex-col md:items-center md:justify-center">
           <img src={description_color} alt="description_color" />
         </div>
@@ -63,6 +63,31 @@ function App() {
           </p>
           <p>
             このように色から全体の動きを詳細に把握することで、書き手の表現へのこだわりや、書による表現の奥深さへの洞察が深まるでしょう。
+          </p>
+        </div>
+      </div>
+      {/* auditory */}
+      <div className="mx-16 mt-24 text-center text-4xl">聴覚</div>
+      <div className="mx-16 mt-14 flex flex-col gap-8 md:flex-row">
+        <div className="w-full md:flex md:flex-[45%] md:flex-col md:items-center md:justify-center">
+          <iframe
+            className="aspect-video w-[stretch]"
+            src="https://www.youtube.com/embed/zN-Z_V6UUe0"
+            title="YouTube video player"
+            allow="picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+        <div className="page-content md:flex-[55%]">
+          <p>続いて、書き手の筆運びを音で表現したものです。</p>
+          <p>
+            書き手自身が筆を運ぶ過程の感覚を、力強い起筆や終筆は和太鼓の音で、流れるような運筆は波の音で再現しました。
+          </p>
+          <p>
+            筆の動きが生む強弱や間の取り方が音で表現されることで、書き手の呼吸に寄り添うような没入感が生まれます。
+          </p>
+          <p>
+            音を通じて、視覚では捉えきれない微妙なリズムや筆の躍動感を感じ取ることができ、書き手の動きをより立体的に捉えられます。
           </p>
         </div>
       </div>
