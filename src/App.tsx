@@ -238,7 +238,7 @@ function App() {
                 <div className="member">
                   <span>都築あい</span>
                   <span>
-                    東京大学大学院情報理工学系
+                    東京大学大学院学際情報学府
                     <br className="block sm:hidden" /> 修士課程1年
                   </span>
                 </div>
