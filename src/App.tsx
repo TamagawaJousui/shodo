@@ -139,7 +139,6 @@ function App() {
             </div>
           </section>
           {/* summary */}
-
           <section className="page-content">
             <p>
               本作品は、書道を長年学び続けてきたメンバーが、書道の鑑賞体験を変えたいという思いから制作したものです。
@@ -166,7 +165,7 @@ function App() {
               </a>
               <span className="mt-2 w-fit sm:mt-0">11.7 - 11.11</span>
             </div>
-            <div className="mt-14 flex flex-col gap-12 drop-shadow-2xl">
+            <div className="mt-8 flex flex-col gap-12 drop-shadow-2xl">
               <img
                 src={exhibition_1}
                 alt="exhibition_1"
