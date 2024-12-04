@@ -8,13 +8,17 @@
   body {
     @apply antialiased font-serif;
   }
+
+  section {
+    @apply mt-24;
+  }
 }
 @layer components {
   .page-content {
     @apply flex flex-col justify-center gap-8 text-lg sm:text-xl leading-relaxed;
   }
   .member {
-    @apply text-base sm:text-xl flex w-full flex-row justify-between items-center md:w-[31rem];
+    @apply text-sm sm:text-xl flex flex-row justify-between items-center;
   }
 }
 @layer utilities {
