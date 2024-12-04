@@ -52,6 +52,7 @@ function App() {
           <section>
             <iframe
               className="mt-24 aspect-video w-[stretch] rounded-xl"
+              loading="lazy" 
               src="https://www.youtube.com/embed/_RrR8aV4kN4"
               title="YouTube video player"
               allow="picture-in-picture"
@@ -94,6 +95,7 @@ function App() {
               <div className="w-full md:flex md:flex-[45%] md:flex-col md:items-center md:justify-center">
                 <iframe
                   className="aspect-video w-[stretch] rounded-xl"
+                  loading="lazy" 
                   src="https://www.youtube.com/embed/zN-Z_V6UUe0"
                   title="YouTube video player"
                   allow="picture-in-picture"
