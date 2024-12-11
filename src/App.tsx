@@ -53,7 +53,7 @@ function App() {
             <iframe
               className="mt-24 aspect-video w-[stretch] rounded-xl"
               loading="lazy" 
-              src="https://www.youtube.com/embed/_RrR8aV4kN4"
+              src="https://www.youtube.com/embed/noWmAbQtRSA"
               title="YouTube video player"
               allow="picture-in-picture"
               allowFullScreen
@@ -96,7 +96,7 @@ function App() {
                 <iframe
                   className="aspect-video w-[stretch] rounded-xl"
                   loading="lazy" 
-                  src="https://www.youtube.com/embed/zN-Z_V6UUe0"
+                  src="https://www.youtube.com/embed/MH7JJfZByqg"
                   title="YouTube video player"
                   allow="picture-in-picture"
                   allowFullScreen
