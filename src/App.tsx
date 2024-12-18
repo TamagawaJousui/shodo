@@ -18,8 +18,8 @@ function App() {
         <div className="-z-10 flex h-screen w-full bg-[url('/hero_banner_mobile.webp')] bg-cover bg-center brightness-[0.8] sm:bg-[url('/hero_banner.webp')]" />
         <div className="absolute left-0 top-0 z-10 flex size-full flex-col items-center justify-end sm:justify-center">
           <div className="text-shadow mb-16 flex w-full flex-col gap-6 text-center  text-primary  sm:mb-0">
-            <div className="text-[4rem]">書動</div>
-            <div className="text-[2rem]">Trajectory of Handwriting</div>
+            <h1 className="text-[4rem]">書動</h1>
+            <h1 className="text-[2rem]">Trajectory of Handwriting</h1>
           </div>
         </div>
       </div>
@@ -52,21 +52,21 @@ function App() {
           <section>
             <iframe
               className="mt-24 aspect-video w-[stretch] rounded-xl"
-              loading="lazy" 
+              loading="lazy"
               src="https://www.youtube.com/embed/noWmAbQtRSA"
-              title="YouTube video player"
+              title="書動 - コンセプト映像"
               allow="picture-in-picture"
               allowFullScreen
             />
           </section>
           {/* visual */}
           <section>
-            <div className="text-center text-4xl">視覚</div>
+            <h2 className="text-center text-4xl">視覚</h2>
             <div className="mt-14 flex flex-col gap-8 md:flex-row">
               <div className="w-full md:flex md:flex-[45%] md:flex-col md:items-center md:justify-center">
                 <img
                   src={description_color}
-                  alt="description_color"
+                  alt="書道の筆運びをスピードに応じた色で表現した視覚化"
                   className="fade-edges  rounded-xl"
                 />
               </div>
@@ -90,14 +90,14 @@ function App() {
           </section>
           {/* auditory */}
           <section>
-            <div className="text-center text-4xl">聴覚</div>
+            <h2 className="text-center text-4xl">聴覚</h2>
             <div className="mt-14 flex flex-col gap-8 md:flex-row">
               <div className="w-full md:flex md:flex-[45%] md:flex-col md:items-center md:justify-center">
                 <iframe
                   className="aspect-video w-[stretch] rounded-xl"
-                  loading="lazy" 
+                  loading="lazy"
                   src="https://www.youtube.com/embed/MH7JJfZByqg"
-                  title="YouTube video player"
+                  title="書動 - 筆運びを音で表現したもの"
                   allow="picture-in-picture"
                   allowFullScreen
                 />
@@ -118,7 +118,7 @@ function App() {
           </section>
           {/* tactile */}
           <section>
-            <div className="text-center text-4xl">触覚</div>
+            <h2 className="text-center text-4xl">触覚</h2>
             <div className="mt-14 flex flex-col gap-16">
               <div className="page-content">
                 <p>
@@ -134,7 +134,7 @@ function App() {
               <div className="w-full">
                 <img
                   src={description_touch}
-                  alt="description_touch"
+                  alt="筆の進む方向と速度を触覚で表現したもの"
                   className="rounded-xl"
                 />
               </div>
@@ -154,34 +154,34 @@ function App() {
           </section>
           {/* exhibition */}
           <section>
-            <div className="text-center text-4xl">展示</div>
+            <h2 className="text-center text-4xl">展示</h2>
             <div className="mt-4 flex flex-col items-center whitespace-pre-wrap text-xl">
               <a href="https://www.iiiexhibition.com/" target="_blank">
-                <div className="flex flex-col items-center justify-center gap-1 underline sm:mb-1 sm:flex-row sm:gap-2 sm:border-b sm:border-black sm:pb-0 sm:no-underline">
+                <h3 className="flex flex-col items-center justify-center gap-1 underline sm:mb-1 sm:flex-row sm:gap-2 sm:border-b sm:border-black sm:pb-0 sm:no-underline">
                   <span>
                     <LuExternalLink className="mr-1 inline-block text-xl" />
                     東京大学制作展 2024
                   </span>
                   <span> 付いて離れて</span>
-                </div>
+                </h3>
               </a>
               <span className="mt-2 w-fit sm:mt-0">11.7 - 11.11</span>
             </div>
             <div className="mt-14 flex flex-col gap-12 drop-shadow-2xl">
               <img
                 src={exhibition_1}
-                alt="exhibition_1"
+                alt="東京大学制作展 2024 写真その一"
                 className="rounded-xl"
               />
               <div className="flex flex-col gap-12 md:flex-row md:justify-between md:gap-0">
                 <img
                   src={exhibition_2}
-                  alt="exhibition_2"
+                  alt="東京大学制作展 2024 写真その二"
                   className="rounded-xl object-contain md:w-1/4"
                 />
                 <img
                   src={exhibition_3}
-                  alt="exhibition_3"
+                  alt="東京大学制作展 2024 写真その三"
                   className="rounded-xl object-contain md:w-[68%]"
                 />
               </div>
@@ -189,29 +189,29 @@ function App() {
           </section>
           {/* making */}
           <section>
-            <div className="text-center text-4xl">制作</div>
+            <h2 className="text-center text-4xl">制作</h2>
             <div className="mt-14 flex flex-col gap-12 drop-shadow-2xl">
               <div className="flex flex-col gap-12 md:flex-row md:justify-between md:gap-0">
                 <img
                   src={making_1}
-                  alt="making_1"
+                  alt="制作写真その一"
                   className="rounded-xl object-contain md:w-[73%]"
                 />
                 <img
                   src={making_2}
-                  alt="making_2"
+                  alt="制作写真その二"
                   className="rounded-xl object-contain  md:w-[23%]"
                 />
               </div>
               <div className="flex flex-col gap-12 md:flex-row md:justify-between md:gap-0">
                 <img
                   src={making_3}
-                  alt="making_3"
+                  alt="制作写真その三"
                   className="rounded-3xl object-contain md:w-[26%]"
                 />
                 <img
                   src={making_4}
-                  alt="making_4"
+                  alt="制作写真その四"
                   className="rounded-xl object-contain md:w-[69.5%]"
                 />
               </div>
@@ -219,7 +219,7 @@ function App() {
           </section>
           {/* members */}
           <section>
-            <div className="text-center text-4xl">メンバー</div>
+            <h2 className="text-center text-4xl">メンバー</h2>
             <div className="mt-8 flex flex-col items-center justify-center">
               <div className="w-full max-w-72 sm:max-w-lg">
                 <div className="member">
